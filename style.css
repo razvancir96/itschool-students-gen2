@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+.welcome {
+  height: 40vh;
+  background-color: rgb(24, 31, 76);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 40px;
+}
+
+.welcome p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.students {
+  min-width: 320px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.students .container-fluid {
+  padding: 0;
+}
+
+.students .row {
+  width: 100%;
+  margin: 0;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.intro,
+.intro h2 {
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+.custom-card-wrapper {
+  padding: 0 16px;
+  margin-top: 74px;
+}
+
+.custom-card {
+  padding: 16px;
+  border: 1px solid #ccc;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.custom-card .avatar-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.custom-card .avatar {
+  width: 100%;
+  height: auto;
+}
+
+.custom-card h3 {
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+
+.custom-card .contact {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-card .contact img {
+  width: 40px;
+}
